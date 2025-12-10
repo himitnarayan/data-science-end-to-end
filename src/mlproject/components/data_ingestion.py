@@ -23,7 +23,7 @@ class DataIngestion:
         logging.info("Data Ingestion method started")
         try:
             logging.info("Reading the dataset as pandas dataframe")
-            df=read_sql_data()
+            df=pd.read_csv(os.path.join("notebook/data","raw.csv"))
 
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path),exist_ok=True)
 
