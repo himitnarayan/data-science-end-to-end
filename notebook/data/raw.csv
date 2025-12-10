@@ -999,4 +999,9 @@ male,group C,high school,free/reduced,none,62,55,55
 female,group C,high school,free/reduced,completed,59,71,65
 female,group D,some college,standard,completed,68,78,77
 female,group D,some college,free/reduced,none,77,86,86
-
+male,group A,high school,standard,none,63,63,62
+female,group E,master's degree,standard,completed,88,99,95
+male,group C,high school,free/reduced,none,62,55,55
+female,group C,high school,free/reduced,completed,59,71,65
+female,group D,some college,standard,completed,68,78,77
+female,group D,some college,free/reduced,none,77,86,86

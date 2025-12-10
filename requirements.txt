@@ -7,3 +7,8 @@ python-dotenv
 scikit-learn
 seaborn
 matplotlib
+catboost
+xgboost
+Flask
+dill
+mlflow
