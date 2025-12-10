@@ -38,25 +38,45 @@ This is a **regression problem**, and the goal is to achieve the highest possibl
 ## 🏗️ Project Architecture
 
 mlproject/
+
 │
+
 ├── artifacts/ # Saved models & transformed data
+
 ├── notebook/ # EDA & training notebooks
+
 │ ├── EDA STUDENT PERFORMANCE.ipynb
+
 │ └── MODEL TRAINING.ipynb
+
 │
+
 ├── src/mlproject/
+
 │ ├── components/
+
 │ │ ├── data_ingestion.py
+
 │ │ ├── data_transformation.py
+
 │ │ └── model_trainer.py
+
 │ │
+
 │ ├── exception.py
+
 │ ├── logger.py
+
 │ └── utils.py
+
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 └── README.md
+
 
 ---
 
